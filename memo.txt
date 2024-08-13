@@ -1,0 +1,15 @@
+docker-compose up -d
+docker-compose down
+docker exec -it study_rust-backend-1 /bin/bash
+
+
+
+cargo install cargo-edit 실행시 오류
+apt update
+apt install pkg-config
+apt install libssl-dev
+
+
+cargo add quick-xml@0.24
+cargo add serde@1.0 --features derive
+cargo add serde_xml_rs@0.5
